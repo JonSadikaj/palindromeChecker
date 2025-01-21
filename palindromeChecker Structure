@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset = "UTF-8"/>
+    <meta name="viewport"content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Palindrome Checker</title>
+  </head>
+  <body>
+    <main>
+      <h1>Palindrome Checker</h1>
+  <input type ="text" id="text-input" placeholder="Enter the palindrome here">
+  <button id="check-btn" type="button">Check</button>
+      <p>Enter any word you want.</p>
+      <p>This program will check if it's a palindrome.</p>
+      <div id="result">Result:</div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
