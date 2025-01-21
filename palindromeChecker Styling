@@ -1,0 +1,27 @@
+:root {
+  --light-grey: #f5f6f7;
+  --dark-blue: #0a0a23;
+  --fcc-blue: #1b1b32;
+  --light-yellow: #fecc4c;
+  --dark-yellow: #feac32;
+  --light-pink: #ffadad;
+  --dark-red: #850000;
+  --light-green: #acd157;
+}
+
+body{
+  font-family: Helvetica;
+  font-size: 23px;
+  background-color: var(--dark-red);
+  color: var(--light-grey);
+  text-align:center;
+}
+
+p{
+  font-family: Helvetica;
+}
+
+#result{
+  margin-top: 15px;
+  font-weight: bold;
+}
